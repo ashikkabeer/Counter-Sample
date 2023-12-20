@@ -1,0 +1,41 @@
+
+body {
+    height: 100vh;
+    display: grid;
+    background-color: #222;
+    font-family: 'Roboto', sans-serif;
+    inset: 0;
+    display: flex;
+    position: absolute;
+    place-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: #f2f2f2;
+}
+.container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    color: #f2f2f2;
+    background-color: #c1121f;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    place-self: center;
+    white-space: nowrap; 
+
+}
+
+
+#count {
+    font-size: 20vw;
+    font-weight: 700;
+    color: #f2f2f2;
+    text-align: center;
+}
+
